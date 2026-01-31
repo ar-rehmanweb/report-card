@@ -60,7 +60,7 @@ const students = [
     },
     {
         id: "STD-1002",
-        name: "Sara",
+        name: "Leonal Messi",
         semesters: [
             { semester: 1, subjects: [{name: "Sub1", marks: 45}, {name: "Sub2", marks: 50}, {name: "Sub3", marks: 40}, {name: "Sub4", marks: 55}, {name: "Sub5", marks: 42}] }, // Weak student example
             { semester: 2, subjects: [{name: "Sub1", marks: 50}, {name: "Sub2", marks: 55}, {name: "Sub3", marks: 45}, {name: "Sub4", marks: 60}, {name: "Sub5", marks: 48}] },
@@ -71,7 +71,7 @@ const students = [
     },
     {
         id: "STD-1003",
-        name: "Abdur Rehman",
+        name: "Abdur Rehman TOPPER",
         semesters: [
             // Consistent A grade student
             { semester: 1, subjects: [{name: "Mth", marks: 90}, {name: "Eng", marks: 88}, {name: "CS", marks: 95}, {name: "Phy", marks: 92}, {name: "Chm", marks: 90}] },
