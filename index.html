@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Report Card</title>
+    <title>Student Records Main</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <script src="app.js"></script>
+    <div class="container">
+        <header>
+            <h1>Student Result Management</h1>
+            <p class="subtitle">Select a student to view their detailed academic performance</p>
+        </header>
+
+        <main id="student-list" class="student-grid">
+        </main>
+    </div>
+
+    <!-- Data Script -->
+    <script src="js/data.js"></script>
+    <!-- Main Logic Script -->
+    <script src="js/main.js"></script>
 </body>
 </html>
