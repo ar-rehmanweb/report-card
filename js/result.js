@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
     }
-
+           
     // Helper: Calculate Grade
     function calculateGrade(percentage) {
         if (percentage >= 90) return 'A=';
