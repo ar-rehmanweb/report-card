@@ -72,7 +72,7 @@ const students = [
           { name: "Sub4", marks: 55 },
           { name: "Sub5", marks: 42 },
         ],
-      }, // Weak student example
+      }, // Weak student example  
       {
         semester: 2,
         subjects: [
